@@ -1,0 +1,16 @@
+{
+  "name": "morning-stock-briefing-backend",
+  "version": "1.0.0",
+  "description": "네이버 금융 크롤링 백엔드 API",
+  "main": "api/naver-finance.js",
+  "scripts": {
+    "test": "node api/naver-finance.js"
+  },
+  "keywords": ["naver", "finance", "stocks"],
+  "author": "우리얼",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
